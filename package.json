@@ -1,0 +1,33 @@
+{
+  "name": "colorify-consolelog-library",
+  "version": "1.0.0",
+  "description": "A library to colorify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuyashOP-2/Colorify_Console.git"
+  },
+  "keywords": [
+    "colsole log colors",
+    "console-colorify"
+  ],
+  "author": "Suyash Shirtar <suyashsshirtar2@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuyashOP-2/Colorify_Console/issues"
+  },
+  "homepage": "https://github.com/SuyashOP-2/Colorify_Console#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files" : [
+    "lib/**/*"
+  ]
+
+}
